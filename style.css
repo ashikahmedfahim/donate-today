@@ -44,7 +44,49 @@ p{
     color: white;
     background-color: rgb(232, 110, 110);
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border: none;
     font-size: 25px;
+}
+.donate-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+}
+.donate-menu-text{
+    color: grey;
+    margin-top: 25px;
+}
+.donate-options{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+.donate-options p{
+    padding: 40px 30px;
+    margin: 15px;
+    background-color: rgba(128, 128, 128, 0.05);
+    color: gray;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.selected-option{
+    background-color: rgba(250, 128, 114, 0.201) !important;
+    color: salmon !important;
+    border: 1px solid salmon;
+}
+.donate-amount-input{
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.521);
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.donate-input-section{
+    width: 50%;
 }
